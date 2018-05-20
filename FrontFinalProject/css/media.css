@@ -1,0 +1,38 @@
+@media only screen and (max-width: 1200px) {
+    .leftMain.col-md-8, .leftMain.col-md-8 .statistics.col-md-6, .taskList.col-md-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .leftMain.col-md-8 .leftMain.col-md-8.comments.col-md-12 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .rightMain.col-md-4, .rightMain.col-md-4 .projectFeed {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .row.notification .col-md-3.col-sm-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    nav.sidebar {
+        width: 100%;
+        z-index: 2;
+    }
+    .topNav header h1, header .leftNav>ul>li>a span {
+        display: none;
+    }
+    .row.notification .col-md-3.col-sm-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .leftNav ul li:nth-of-type(2) {
+        width: 60px;
+    }
+}
